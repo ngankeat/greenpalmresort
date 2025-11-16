@@ -1,0 +1,11 @@
+{
+    "name": "ApiApp",
+    "alias": "apiapp",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ApiApp\\app\\Providers\\ApiAppServiceProvider"
+    ],
+    "files": []
+}

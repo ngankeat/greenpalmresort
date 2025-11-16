@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/apiapp",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ApiApp\\": "",
+            "Modules\\ApiApp\\App\\": "app/",
+            "Modules\\ApiApp\\Database\\Factories\\": "database/factories/",
+            "Modules\\ApiApp\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ApiApp\\Tests\\": "tests/"
+        }
+    }
+}
